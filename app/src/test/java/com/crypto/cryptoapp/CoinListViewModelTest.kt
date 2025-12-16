@@ -18,14 +18,10 @@ import retrofit2.converter.moshi.MoshiConverterFactory
 
 @OptIn(ExperimentalCoroutinesApi::class)
 class CoinListViewModelTest {
-
     @get:Rule
-    //val instantTaskExecutorRule = InstantTaskExecutorRule()
-
     private lateinit var mockWebServer: MockWebServer
     private lateinit var api: CoinGeckoApi
     private lateinit var viewModel: CoinListViewModel
-
     private val testDispatcher = StandardTestDispatcher()
 
     @Before
