@@ -1,4 +1,4 @@
-# 🪙 Crypto Coins App (Jetpack Compose)
+# Crypto Coins App (Jetpack Compose)
 
 A clean, production-ready **Crypto Coins Android application** built using **Jetpack Compose**, **Clean Architecture**, and modern Android development best practices.
 
@@ -6,7 +6,7 @@ This project demonstrates strong skills in **architecture design**, **networking
 
 ---
 
-## 📌 Objective
+## Objective
 
 Build a modern Android application that:
 - Fetches cryptocurrency data from CoinGecko API
@@ -16,7 +16,7 @@ Build a modern Android application that:
 
 ---
 
-## 🛠 Tech Stack
+## Tech Stack
 
 | Category | Technology |
 |------|---------|
@@ -33,7 +33,7 @@ Build a modern Android application that:
 
 ---
 
-## 🏗 Architecture Overview
+## Architecture Overview
 
 The project follows **Clean Architecture**, divided into three layers:
 
@@ -46,9 +46,9 @@ The project follows **Clean Architecture**, divided into three layers:
 
 ---
 
-## 🚀 Features
+##  Features
 
-### 1️⃣ Crypto Coins List Screen
+### 1️ Crypto Coins List Screen
 - Vertical list of cryptocurrencies
 - Each item shows:
   - Coin logo (from URL)
@@ -60,7 +60,7 @@ The project follows **Clean Architecture**, divided into three layers:
 - Loading & error states
 - Tap to navigate to detail screen
 
-### 2️⃣ Crypto Coin Detail Screen
+### 2️Crypto Coin Detail Screen
 - Large coin image
 - Coin name & symbol
 - Current price
@@ -70,7 +70,7 @@ The project follows **Clean Architecture**, divided into three layers:
 
 ---
 
-## 🌐 API Integration
+##  API Integration
 
 ### Coin List API
 
@@ -87,7 +87,7 @@ Query Parameters:
 
 ---
 
-## 🧪 Testing (Optional / Nice to Have)
+##  Testing 
 
 - ViewModel unit tests using:
   - `kotlinx-coroutines-test`
@@ -98,7 +98,7 @@ Query Parameters:
 
 ---
 
-## 🌙 UI & Accessibility
+## UI & Accessibility
 
 - Full Light & Dark mode support
 - Material 3 design
@@ -107,6 +107,6 @@ Query Parameters:
 
 ---
 
-## 🔐 API Key
+##  API Key
 
 The API key is stored inside:
